@@ -248,23 +248,42 @@ ul li {
     display: flex;
     min-height: 600px;
     justify-content: center;
-    padding: 20px;
-    
+    padding: 80px 0 30px 0;
+    border-bottom: 2px solid #8ea1e16d;
     
 }
 
 .sfondo-nero{
     background-color: var(--black);
-    border-bottom: 2px solid var(--white);
+    
 }
 .riquadro-sinistra{
     flex: 0 0 30%;
-    background-color: var(--red);
+    /* background-color: var(--red); */
+}
+
+.wave img{
+    filter: invert(0.9) sepia(0) saturate(00) ;
 }
 
 .riquadro-sinistra h3{
     font-size: 30px;
     text-align: left;
+    color: #8ea1e1;
+}
+
+.bandiera{
+    padding: 30px 0;
+    color: white;
+}
+
+.bandiera img{
+    width: 10%;
+}
+
+.bandiera span{
+    font-size: 18px;
+  
 }
 
 
@@ -273,12 +292,19 @@ ul li {
     display: flex;
     padding: 0;
    
-    background-color: #20b2aa;
+    /* background-color: #20b2aa; */
 }
 
 .celle{
     flex: 0 0 25%;
-    border: 2px dashed #d3d3d3;
+    /* border: 2px dashed #d3d3d3; */
+    font-size: 18px;
+    color: var(--white);
+}
+
+.titolo{
+    color:#8ea1e1; 
+    font-weight: 800;
 }
 
 
@@ -290,22 +316,24 @@ ul li {
 }
 
 .barra-finale{
-flex: 0 0 100%;
-background-color:aquamarine ;
-display: flex;
-justify-content: space-between;
-border: none;
-padding: 10px 0;
+    flex: 0 0 100%;
+    /* background-color:aquamarine ; */
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 10px 0;
 }
 
 .logo-finale{
-background-color: var(--red);
-display: flex;
-align-items: center;
+    /* background-color: var(--red); */
+    display: flex;
+    align-items: center;
 }
 
 .bottone{
-    background-color: #f08080;
+    background-color: #8ea1e1;
     display: flex;
-align-items: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
 }
