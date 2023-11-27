@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.debug{
+    /* border: 3px dashed rgb(0, 0, 0); */
+    min-height: 80px;
+    padding: 15px;
+
+}
+
+:root{
+    --space:15px;
+    --white: rgb(255, 255, 255);
+    --ligt-pink: #ffc0cb;
+    --azzurro:#3161e0;
+    --grey:#d3d3d3;
+    --orange:#daa520;
+    --blue:#00008b;
+    --pink:#ee82ee;
+    --green:#228b22;
+    --black:#23272a;
+    --red:#f08080;
+
+}
+
+header{
+    background-color: var(--azzurro);
+    display: flex;
+    justify-content: center;
+    padding: var(--space);
+}
+
+.container{
+
+    width: 70%;
+margin: auto;
+}
+
+.barra-iniziale{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--azzurro);
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white ;
+}
+
+.sfondo-grigio{
+    background-color: var(--grey);
+}
+
+
+.logo{
+    flex: 0 1 25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    flex: 1 0 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.login{
+    flex: 0 1 25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.login p{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: var(--space);
+    
+}
+
+
+.prima-parte{
+    display: flex;
+    justify-content: center;
+    
+    background-image:url(img/jumpo.png);
+    
+}
+
+
+.riquadro-rosa-forte{
+    
+    flex: 0 0 50%;
+    background-color: var(--pi);
+    border-radius: 15px;
+    min-height: 500px;
+}
+
+.riquadro-rosa-forte h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight:900;
+    word-spacing: 1px;
+}
+
+.seconda-parte{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    min-height: 500px;
+    background-color: var(--white);
+}
+
+.riquadro-azzurro{
+    flex: 0 0 70%;
+    background-color: var(--azzurro);
+    
+}
+
+.riquadro-rosa{
+    flex: 0 0 30%;
+    background-color: var(--ligt-pink);
+}
+
+.terza-sezione{
+    background-color: var(--grey);
+}
+
+.riquadro-verde{
+    flex: 0 0 100%;
+    background-color: var(--green);
+    border-radius: var(--space);
+    min-height:800px;
+}
+
+.penultimo-riquadro{
+    display: flex;
+    min-height: 600px;
+    justify-content: center;
+    padding: 20px;
+    
+    
+}
+
+.sfondo-nero{
+    background-color: var(--black);
+    border-bottom: 2px solid var(--white);
+}
+.riquadro-sinistra{
+    flex: 0 0 30%;
+    background-color: var(--red);
+}
+
+.riqadro-destra{
+    flex: 0 0 65%;
+    display: flex;
+    padding: 0;
+   
+    background-color: #20b2aa;
+}
+
+.celle{
+    flex: 0 0 25%;
+border: 2px dashed #d3d3d3;
+}
+
+
+.ultima-sezione{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--black);
+}
+
+.barra-finale{
+flex: 0 0 100%;
+background-color:aquamarine ;
+display: flex;
+justify-content: space-between;
+border: none;
+padding: 10px 0;
+}
+
+.logo-finale{
+background-color: var(--red);
+display: flex;
+align-items: center;
+}
+
+.bottone{
+    background-color: #f08080;
+    display: flex;
+align-items: center;
+}
