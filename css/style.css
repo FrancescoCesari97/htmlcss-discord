@@ -11,8 +11,8 @@ body{
 
 .debug{
     /* border: 3px dashed rgb(0, 0, 0); */
-    min-height: 80px;
-    padding: 15px;
+    /* min-height: 80px; */
+    /* padding: 15px; */
 
 }
 
@@ -21,7 +21,7 @@ body{
     --white: rgb(255, 255, 255);
     --ligt-pink: #ffc0cb;
     --azzurro:#255ee9;
-    --grey:#d3d3d3;
+    --grey:#f6f6f6;
     --orange:#daa520;
     --blue:#00008b;
     --pink:#ee82ee;
@@ -166,14 +166,26 @@ ul li {
 }
 
 .riquadro-azzurro{
-    flex: 0 0 70%;
-    background-color: var(--azzurro);
-    
+    flex: 0 0 60%;
+    /* background-color: var(--azzurro); */
+    margin: 20px;
 }
 
 .riquadro-rosa{
-    flex: 0 0 30%;
-    background-color: var(--ligt-pink);
+    flex: 0 0 40%;
+    /* background-color: var(--ligt-pink); */
+    padding: 35px;
+}
+
+.riquadro-rosa h2{
+    padding-top: 30px;
+    font-size: 45px;
+}
+
+.riquadro-rosa p{
+    font-size: 18px;
+    line-height: 1.8rem;
+    padding-top: 20px;
 }
 
 .terza-sezione{
