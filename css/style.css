@@ -20,7 +20,7 @@ body{
     --space:15px;
     --white: rgb(255, 255, 255);
     --ligt-pink: #ffc0cb;
-    --azzurro:#3161e0;
+    --azzurro:#255ee9;
     --grey:#d3d3d3;
     --orange:#daa520;
     --blue:#00008b;
@@ -104,8 +104,8 @@ ul li {
     display: flex;
     justify-content: center;
     
-    background-image:url(img/jumpo.png);
-    
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 
@@ -119,11 +119,43 @@ ul li {
 
 .riquadro-rosa-forte h1{
     text-align: center;
-    padding-top: 50px;
-    font-size: 40px;
-    font-weight:900;
+    padding-top: 80px;
+    font-size: 50px;
+    font-weight:700;
     word-spacing: 1px;
+    color: white;
 }
+
+.riquadro-rosa-forte p{
+    padding-top: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    line-height: 1.8rem;
+}
+
+.bottoni-prima-parte{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.bottoni-prima-parte span{
+    margin: 40px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.scarica-mac{
+    background-color: white;
+}
+
+.Apri-discord{
+    background-color: var(--black);
+    color: white;
+}
+
 
 .seconda-parte{
     display: flex;
