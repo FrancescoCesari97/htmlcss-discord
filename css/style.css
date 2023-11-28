@@ -151,9 +151,17 @@ ul li {
     background-color: white;
 }
 
-.Apri-discord{
+.scarica-mac a{
+    color: #23272a;
+}
+
+.Apri-discord {
     background-color: var(--black);
     color: white;
+}
+
+.Apri-discord a{
+    
 }
 
 
@@ -288,7 +296,7 @@ ul li {
 
 
 .riqadro-destra{
-    flex: 0 0 65%;
+    flex: 0 0 70%;
     display: flex;
     padding: 0;
    
@@ -300,6 +308,7 @@ ul li {
     /* border: 2px dashed #d3d3d3; */
     font-size: 18px;
     color: var(--white);
+    
 }
 
 .titolo{
